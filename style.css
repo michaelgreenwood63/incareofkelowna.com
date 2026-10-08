@@ -31,7 +31,11 @@ img{max-width:100%;display:block}
 
 /* ── NAV ── */
 nav{position:sticky;top:0;z-index:100;background:var(--white);border-bottom:1px solid var(--border);padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:74px;box-shadow:0 1px 8px rgba(0,0,0,.05)}
-.nav-logo{font-family:'Montserrat',sans-serif;font-size:19px;font-weight:800;letter-spacing:-.3px;color:var(--charcoal)}
+.nav-logo{display:flex;align-items:center;gap:11px;color:var(--charcoal)}
+.nav-logo-icon{width:38px;height:38px;border-radius:10px;flex-shrink:0}
+.nav-logo-text{display:flex;flex-direction:column;line-height:1.15}
+.nav-logo-eyebrow{font-family:'Lora',serif;font-style:italic;font-size:11.5px;font-weight:500;color:var(--muted);letter-spacing:.2px}
+.nav-logo-main{font-family:'Lora',serif;font-size:21px;font-weight:700;letter-spacing:-.2px;color:var(--charcoal)}
 .nav-logo span{color:var(--red)}
 .nav-links{display:flex;align-items:center;gap:28px;font-size:15.5px;font-weight:600}
 .nav-links a:hover,.nav-links a.active{color:var(--red)}
@@ -248,7 +252,7 @@ a.complex-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-card-hov
 /* ── FOOTER ── */
 .footer{background:var(--charcoal);color:#fff;padding:70px 28px 36px}
 .footer-top{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
-.footer-logo{font-family:'Montserrat',sans-serif;font-size:21px;font-weight:900;letter-spacing:-.4px;margin-bottom:14px}
+.footer-logo{font-family:'Lora',serif;font-size:22px;font-weight:700;letter-spacing:-.2px;margin-bottom:14px}
 .footer-logo span{color:var(--amber)}
 .footer-desc{font-size:14.5px;color:#999;line-height:1.75}
 .footer-heading{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.7px;color:#777;margin-bottom:18px}
