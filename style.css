@@ -14,6 +14,8 @@
   --text:#1A1A1A;
   --charcoal:#2C2C2C;
   --muted:#4A4A4A;
+  --sage:#E7EDE8;
+  --sage-dark:#5C7566;
   --r:14px;
   --r-sm:10px;
   --shadow-card:0 2px 14px rgba(60,40,20,.07);
@@ -152,13 +154,13 @@ a.complex-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-card-hov
 .faq-a a{color:var(--red);font-weight:700}
 
 /* ── LEAD FORMS ── */
-.lead-section{background:var(--charcoal);padding:88px 28px}
+.lead-section{background:var(--sage);padding:88px 28px}
 .lead-inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:32px}
-.lead-box{background:#fff;border-radius:18px;padding:38px;box-shadow:0 24px 60px rgba(0,0,0,.28)}
-.lead-box-label{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--amber);margin-bottom:10px}
+.lead-box{background:#fff;border-radius:18px;padding:38px;box-shadow:0 12px 36px rgba(44,58,48,.10);border:1px solid rgba(44,58,48,.08)}
+.lead-box-label{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--sage-dark);margin-bottom:10px}
 .lead-icon{font-size:32px;margin-bottom:14px}
-.lead-box h3{font-size:23px;font-weight:700;color:var(--charcoal);margin-bottom:12px}
-.lead-box>p{font-size:15.5px;color:var(--muted);margin-bottom:24px;line-height:1.7}
+.lead-box h3,.lead-title{font-size:23px;font-weight:700;color:var(--charcoal);margin-bottom:12px}
+.lead-box>p,.lead-sub{font-size:15.5px;color:var(--muted);margin-bottom:24px;line-height:1.7}
 .form-group{margin-bottom:16px}
 .form-group label{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:6px}
 .form-group input,.form-group select,.form-group textarea{width:100%;border:1.5px solid var(--border);border-radius:var(--r-sm);padding:14px 15px;font-size:15.5px;font-family:inherit;color:var(--text);background:var(--warm)}
