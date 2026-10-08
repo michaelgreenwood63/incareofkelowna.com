@@ -24,9 +24,15 @@
 <nav>
   <a href="/" class="nav-logo">IN CARE OF<span>KELOWNA</span></a>
   <div class="nav-links">
-    <a href="/probate-explained">Probate</a>
-    <a href="/power-of-attorney-real-estate">Power of Attorney</a>
-    <a href="/committee-of-the-estate">Committee of the Estate</a>
+    <div class="nav-dropdown">
+      <a>Learn</a>
+      <div class="nav-dropdown-menu">
+        <a href="/probate-explained">Probate</a>
+        <a href="/power-of-attorney-real-estate">Power of Attorney</a>
+        <a href="/committee-of-the-estate">Committee of the Estate</a>
+        <a href="/learn">View All Guides →</a>
+      </div>
+    </div>
     <a href="/guide">Free Checklist</a>
     <a href="/blog">Blog</a>
     <a href="/team" class="active">Our Team</a>
@@ -37,9 +43,11 @@
   <div class="nav-hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
 </nav>
 <div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-menu-label">Learn</div>
   <a href="/probate-explained" onclick="toggleMenu()">Probate</a>
   <a href="/power-of-attorney-real-estate" onclick="toggleMenu()">Power of Attorney</a>
   <a href="/committee-of-the-estate" onclick="toggleMenu()">Committee of the Estate</a>
+  <a href="/learn" onclick="toggleMenu()">View All Guides →</a>
   <a href="/guide" onclick="toggleMenu()">Free Checklist</a>
   <a href="/blog" onclick="toggleMenu()">Blog</a>
   <a href="/team" onclick="toggleMenu()">Our Team</a>
