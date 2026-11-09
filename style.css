@@ -221,6 +221,9 @@ a.complex-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-card-hov
 .article-content li{margin-bottom:10px;line-height:1.8}
 .article-callout{background:var(--warm);border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:28px 30px;margin:32px 0}
 .article-callout p{font-size:16px;margin-bottom:0}
+.byline{font-size:13px;color:var(--muted);background:var(--amber-light);border-left:3px solid var(--amber);border-radius:4px;padding:10px 16px;margin-bottom:24px;line-height:1.6}
+.byline a{color:var(--red);text-decoration:none}
+.byline a:hover{text-decoration:underline}
 .article-related{margin:48px 0;padding-top:30px;border-top:1px solid var(--border)}
 .article-related-title{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin-bottom:16px}
 .article-related-list{display:flex;flex-direction:column;gap:11px;list-style:none;padding:0;margin:0}
